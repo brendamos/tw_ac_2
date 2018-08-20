@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>TecWeb 3 - Forms</title>
+    <meta charset="utf-8">
+
+    <style>
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    }
+
+    li {
+    float: left;
+    }
+
+    li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+
+    li a:hover {
+    background-color: #111;
+    }
+    </style>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  </head>
+  <body>
+
+        <ul>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="um.html">Atividade 1</a></li>
+                <li><a href="dois.html">Atividade 2</a></li>
+                <li><a href="tres.html">Atividade 3</a></li>
+                <li><a href="quatro.html">Atividade 4</a></li>
+                <li><a href="ac2Ex5.html">Atividade 5</a></li>
+        </ul>
+
+        <h2>Atividade 3</h2>
+        <h3>Hyan Siqueira - RA: 1800727</h3>
+
+        <form action="novaEditora" method="POST">
+                <label for="nome">Nome: </label>
+                <input type="text" name="nome" id="nome"><br>
+                
+                <label for="endereco">Endereço completo: </label>
+                <input type="text" name="endereco" id="endereco"><br>
+            
+                <label for="cnpj">CNPJ: </label>
+                <input type="text" name="cnpj" id="cnpj"><br>
+            
+                <label for="site">Site: </label>
+                <input type="url" name="site" id="site"><br>
+            
+                <label for="email">E-mail: </label>
+                <input type="email" name="email" i id="email"><br>
+            
+                <label for="telefone">Telefone: </label>
+                <input type="text" name="telefone" id="telefone"><br>
+            
+                <label for="nomeC">Nome de contato: </label>
+                <input type="text" name="nomeC" id="nomeC"><br>
+                <br>
+            
+                Gênero de publicações:<br>
+                <input type="checkbox" value="policia" name="policial">Policial<br/>
+                <input type="checkbox" value="ficção" name="ficção">Ficção<br/>
+                <input type="checkbox" value="nFicção" name="nFicção">Não ficção<br/>
+                <input type="checkbox" value="religioso" name="religioso">Religioso<br/>
+                <input type="checkbox" value="esporte" name="esporte">Esporte<br/>
+                <input type="checkbox" value="profissional" name="profissional">Profissional<br/>
+                <input type="checkbox" value="Outros" name="Outros">Outros<br/>
+            
+                <input type="submit">
+            </form>
+</body>
+</html>
